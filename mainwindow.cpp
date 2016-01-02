@@ -19,6 +19,8 @@
  */
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "dialogoptions.h"
+#include "ui_dialogoptions.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -34,5 +36,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_btnOptions_clicked()
 {
+}
 
+void MainWindow::on_pushButton_clicked()
+{
+    destroy();
 }

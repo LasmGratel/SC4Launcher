@@ -14,10 +14,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    dialogoptions.cpp
+    dialogoptions.cpp \
+    readregistry.cpp
 
 HEADERS  += mainwindow.h \
-    dialogoptions.h
+    dialogoptions.h \
+    ui_dialogoptions.h \
+    ui_mainwindow.h \
+    readregistry.h
 
 FORMS    += mainwindow.ui \
     dialogoptions.ui

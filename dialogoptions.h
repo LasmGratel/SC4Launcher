@@ -34,6 +34,9 @@ public:
     explicit DialogOptions(QWidget *parent = 0);
     ~DialogOptions();
 
+private slots:
+    void on_radioFull_clicked();
+
 private:
     Ui::DialogOptions *ui;
 };
